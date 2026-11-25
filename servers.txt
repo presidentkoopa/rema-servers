@@ -1,0 +1,8 @@
+# REMA server list. The game's Multiplayer > INTERNET tab reads this file.
+# One server a line:  address[:port]  name
+# The address is how the internet reaches the host's PC: a dynamic-DNS name (stays valid when the
+# home IP changes) or a public IP. The game asks each server here who is there, and shows its own
+# map, players, ping and whether your mods match.
+#
+# Example (remove the # to list it):
+# yourname.duckdns.org:5029  Your server name
